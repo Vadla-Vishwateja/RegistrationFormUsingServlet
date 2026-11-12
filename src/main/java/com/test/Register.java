@@ -65,7 +65,7 @@ public class Register extends GenericServlet {
 			conn.close();
 		
 		} catch (Exception e) {
-			e.printStackTrace();
+			out.println("<h2>"+e.getMessage()+"</h2>");
 		}
 
 	}		
