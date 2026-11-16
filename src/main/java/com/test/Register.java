@@ -33,8 +33,7 @@ public class Register extends GenericServlet {
 		PrintWriter out=response.getWriter();
 		response.setContentType("text/html;charset=UTF-8");
 		
-		String name=request.getParameter("name");
-		
+		String name=request.getParameter("name");		
 		String pass=request.getParameter("pass");
 		
 		String age1=request.getParameter("age");
